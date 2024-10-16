@@ -16,7 +16,7 @@ from mmdet.datasets.transforms import RandomAffine as MMDET_RandomAffine
 from mmdet.datasets.transforms import RandomFlip as MMDET_RandomFlip
 from mmdet.datasets.transforms import Resize as MMDET_Resize
 from mmdet.structures.bbox import (HorizontalBoxes, autocast_box_type,
-                                   get_box_type)
+                                   get_box_type,)
 from mmdet.structures.mask import PolygonMasks, polygon_to_bitmap
 from numpy import random
 

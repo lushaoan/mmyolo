@@ -1,0 +1,7 @@
+{
+    "name": "run-yolo",
+    "image": "harbor.smoa.cc/lushaoan/mmlab:v1",
+    "gpu": 4,
+    "command": "cd /dataset/shaoanlu/github/mmlab/mmyolo/ && bash run_train.sh",
+    "arch": "ampere"
+}
