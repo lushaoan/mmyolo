@@ -1,9 +1,10 @@
 """
-Author: Lu ShaoAn, Smartmore Corporation
+Author: Lu ShaoAn
 Brief: 
 Version: 0.1
-Date: 2024-10-14 18:29:07
-Copyright: Copyright (c) 2022
+Date: 2024-11-04 09:49:10
+Copyright: Copyright (c) 2024
+LastEditTime: 2024-11-04 09:49:11
 """
 
 import json

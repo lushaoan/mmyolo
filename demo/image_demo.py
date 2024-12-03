@@ -4,6 +4,8 @@ import sys
 from argparse import ArgumentParser
 from pathlib import Path
 
+sys.path.append("/dataset/shaoanlu/github/mmlab/mmdetection")
+
 import mmcv
 from mmdet.apis import inference_detector, init_detector
 from mmengine.config import Config, ConfigDict
@@ -11,6 +13,9 @@ from mmengine.logging import print_log
 from mmengine.utils import ProgressBar, path
 
 sys.path.append("/dataset/shaoanlu/github/mmlab/mmyolo")
+
+import torch
+import torch.onnx
 
 from mmyolo.registry import VISUALIZERS
 from mmyolo.utils import switch_to_deploy
